@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.header-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    
+}
+
+.header-container > div {
+    background-color: orange;
+    border: 1px solid gainsboro;
+    height:20rem;
+    width: 30rem;
+    text-align: center
+}
+
+.header-container > div > h1 {
+    margin-top:25%;
+}
